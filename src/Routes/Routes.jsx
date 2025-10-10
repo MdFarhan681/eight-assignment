@@ -6,6 +6,7 @@ import Home from "../pages/Home/Home";
 import AllApps from "../pages/AllApps/AllApps";
 import Installed from "../pages/Installed/Installed";
 import Details from "../pages/Details/Details";
+import NotFound from "../pages/NotFound/NotFound";
 
 
 
@@ -36,6 +37,9 @@ import Details from "../pages/Details/Details";
           path:"/Details/:id",
           Component:Details,
           loader:()=>fetch('AppData.json'),
+        },{
+          path:"/not-found",
+          Component: NotFound
         }
     ]
   },

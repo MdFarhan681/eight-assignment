@@ -1,31 +1,57 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import { VscGithub } from "react-icons/vsc";
-import { Link,useLocation } from "react-router";
+import { Link,useLocation, useNavigate } from "react-router";
 
 function navber() {
 const location= useLocation();
 const active = location.pathname;
+  const [loading, setloading] = useState(false);
+    const navigate =useNavigate();
+
+    const handleNav =(path)=>{
+      setloading(true);
+      setTimeout(()=>{
+        setloading(false)
+        navigate(path)
+      },300)
+    }
+
+
 
   const navLink = (
     <>
-      <li className={active ==="/"?"text-blue-400 font-semibold":"text-gray-900"}>
-        <Link to={"/"}>Home</Link>
+      <li className={active ==="/"?"text-blue-400 font-semibold btn btn-ghost":"text-gray-900 btn btn-ghost"} onClick={()=> handleNav("./")} >
+            Home
       </li>
 
-       <li className={active ==="/AllApps"?"text-blue-400 font-semibold":"text-gray-900"}>
+       <li className={active ==="/AllApps"?"text-blue-400 px-2 font-semibold btn btn-ghost":"text-gray-900 mx-3 btn btn-ghost"} onClick={()=> handleNav("/AllApps")}>
         {" "}
-        <Link to={"/AllApps"}>Apps</Link>
+     Apps
       </li>
 
-      <li className={active ==="/Installed"?"text-blue-400 font-semibold":"text-gray-900"}>
+      <li className={active ==="/Installed"?"text-blue-400 font-semibold btn btn-ghost":"text-gray-900 btn btn-ghost"}
+      onClick={()=> handleNav("/Installed")}>
         {" "}
-        <Link to={"/Installed"}>Installation</Link>
+      Installation
       </li>
     </>
   );
 
   return (
+    <>
+    {
+      loading && (
+        <div className="fixed inset-0 z-10  flex items-center justify-center font-bold text-4xl  ">
+
+        <span className="loading loading-spinner text-error"></span>
+        </div>
+      )
+    }
+
+
+
+
     <div className="navbar bg-base-100 shadow-sm md:px-15 px-7 ">
       <div className="navbar-start">
         <div className="dropdown">
@@ -48,20 +74,9 @@ const active = location.pathname;
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-3"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-3 cursor-pointer"
           >
-            {/* <li>
-              <Link to={"/"}>Home</Link>
-            </li>
-
-            <li>
-              {" "}
-              <Link to={"/AllApps"}>Apps</Link>
-            </li>
-            <li>
-              {" "}
-              <Link to={"/Installed"}>Installation</Link>
-            </li> */}
+           
             {navLink}
           </ul>
         </div>
@@ -77,17 +92,6 @@ const active = location.pathname;
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           {" "}
-          {/* <li>
-            <Link to={"/"}>Home</Link>
-          </li>
-          <li>
-            {" "}
-            <Link to={"/AllApps"}>Apps</Link>
-          </li>
-          <li>
-            {" "}
-            <Link to={"/Installed"}>Installation</Link>
-          </li> */}
         {navLink}
         </ul>
       </div>
@@ -104,6 +108,10 @@ const active = location.pathname;
         </a>
       </div>
     </div>
+    
+    
+    
+    </>
   );
 }
 

@@ -1,6 +1,7 @@
 import React, { useMemo, useEffect, useState } from "react";
-import { useLoaderData } from "react-router";
+import { useNavigate, useLoaderData } from "react-router";
 import Card from "../../components/Card/Card";
+import NotFound from "../NotFound/NotFound";
 
 function AllApps() {
   const rawdata = useLoaderData();
@@ -8,11 +9,13 @@ function AllApps() {
 
   const [search, setsearch] = useState("");
   const [type, settype] = useState(false);
+  const navigate =useNavigate();
 
   useEffect(() => {
     if (search.trim() === "") {
      settype(false)
       return;
+    
     }
     settype(true);
     const id = setTimeout(() => settype(false), 300);
@@ -25,8 +28,17 @@ function AllApps() {
     return data.filter((app)=>(
       app.name || app.title || "").toString().toLowerCase().includes(q)
     );
+
+    
     
   },[search, data]);
+
+
+  useEffect (()=>{
+    if(!type && filtered.length === 0){
+      navigate ("/not-found");
+    }
+  },[type,filtered.length])
 
   return (
     <div className="flex w-full flex-col justify-center items-center py-10 px-12">
@@ -73,21 +85,17 @@ function AllApps() {
         {/* loader */}
         <div className=" grid md:grid-cols-4 grid-cols-1 gap-4">
           {type ? (
-            <p className="text-3xl"> loading....</p>
+            <div className="fixed inset-0 z-10 flex items-center justify-center font-bold text-4xl bg-gray-100 ">
+
+         <span className="loading loading-spinner text-error"></span>
+        </div>
           ) : filtered.length > 0 ? (
             filtered.map((singleCard) => (
               <Card key={singleCard.id} singleCard={singleCard}></Card>
             ))
-          ) : (
-            <p className="text-3xl">NOt app found....</p>
-          )}
+          ):null }
 
-          {/*           
-          <Suspense fallback={<p>Loadding....</p>}>
-            {data.map((singleCard) => (
-              <Card key={singleCard.id} singleCard={singleCard}></Card>
-            ))}
-          </Suspense> */}
+         
         </div>
       </div>
     </div>
