@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import clock from "../../assets/clock.png";
 import download from "../../assets/download.png";
 import rating from "../../assets/ratings.png";
 import reviewIcon from "../../assets/reviewIcon.png";
 import { useLoaderData, useParams } from "react-router";
+import { ToastContainer, toast } from 'react-toastify';
 import {
   BarChart,
   Bar,
@@ -17,6 +18,9 @@ import { addToStorage } from "../../components/AddToCart/AddToCart";
 function Details() {
   const { id } = useParams();
   const data = useLoaderData();
+  const [installed,setinstalled] = useState(false)
+  
+
 
   const singleApp = data.find((ap) => ap.id === parseInt(id));
 
@@ -41,6 +45,8 @@ function Details() {
 
   const halndleInstall = (id) => {
     addToStorage(id);
+    setinstalled(true)
+    toast("Install Successfully");
   };
 
   return (
@@ -79,11 +85,12 @@ function Details() {
           </div>
 
           <button
-            onClick={() => halndleInstall(id)}
+            onClick={() => halndleInstall(id)} disabled={installed === true}
             className="text-white btn mt-3 bg-[#00D390]"
           >
-            Install Now <span>({size} MB)</span>
+           {installed === false ? `Install Now (${size}) MB `:"Installed"} 
           </button>
+           <ToastContainer />
         </div>
       </div>
 
