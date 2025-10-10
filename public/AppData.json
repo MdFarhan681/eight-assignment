@@ -1,0 +1,364 @@
+[
+  {
+    "image": "https://i.ibb.co.com/FL0cYr3m/demo-app-1.webp",
+     "title": "Forest: Focus For Productivity",
+    "companyName": "SeekrTech",
+    "id": 1,
+    "description": "Forest helps you stay focused by planting virtual trees that grow as you work. Each focused session cultivates your forest, motivating you to avoid distractions and stay productive.\n\nThe app uses a simple yet powerful idea: if you leave the app, your tree withers. This encourages mindfulness and discipline during your work sessions.\n\nForest also tracks your progress over time, rewarding consistent focus with badges and new tree species. It’s an excellent tool for students, professionals, or anyone who wants to build better concentration habits in a fun, visual way.",
+    "size": 64,
+    "reviews": "950K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 70 },
+      { "name": "5 star", "count": 835 }
+    
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JF0QsJG9/appTwo.webp",
+    "title": "SunPlant: ToDo List With Reminder",
+    "companyName": "BrightLeaf Labs",
+    "id": 2,
+    "description": "SunPlant helps you organize your daily schedule through a refreshing plant-themed interface. Each completed task nurtures your virtual plant, turning productivity into a peaceful habit.\n\nIt combines a smart task manager with gentle reminders that promote balance between work and relaxation. You can set recurring tasks, priority levels, and quick notes for each goal.\n\nWhether you’re planning your day or managing long-term projects, SunPlant’s friendly visuals and efficient reminders make every achievement satisfying. It’s more than a to-do app — it’s a lifestyle companion that keeps your goals growing beautifully.",
+    "size": 35,
+    "reviews": "430K",
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 12 },
+      { "name": "4 star", "count": 52 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wN92xb9v/demo-app-3.webp",
+    "title": "FLIP - Focus Timer For Study",
+    "companyName": "Rinasoft Inc.",
+    "id": 3,
+    "description": "FLIP helps students and professionals measure their study time effectively using a simple focus timer. You just flip your phone to start concentrating and flip it back to take a break.\n\nThe app tracks your study sessions, breaks, and productivity statistics, making it perfect for time-based planning like the Pomodoro method.\n\nFLIP also features group study rooms where users can focus together and encourage each other. Whether you're preparing for exams or managing work, FLIP motivates you to stay disciplined while turning studying into a rewarding experience.",
+    "size": 58,
+    "reviews": "620K",
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 9 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 526 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbSdtnHN/demo-app-4.webp",
+    "title": "Pomotori - Cute Pomodoro Timer",
+    "companyName": "HappyTools Studio",
+    "id": 4,
+    "description": "Pomotori is a charming productivity timer that uses the Pomodoro technique to help you manage time efficiently. Each focus session grows adorable characters that encourage you to keep going.\n\nIt offers custom session durations, soothing sounds, and minimal animations designed to reduce stress while improving focus.\n\nWhether you’re working, studying, or meditating, Pomotori’s simple design and cute interface transform your productivity routine into a delightful experience. Its daily stats and reminders keep you consistent and inspired.",
+    "size": 40,
+    "reviews": "210K",
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 156 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gLvX8MMW/demo-app-5.webp",
+   "title": "Time Planner: Schedule & Tasks",
+    "companyName": "Oleksandr Albul",
+    "id": 5,
+    "description": "Time Planner is an all-in-one time management app that helps you organize your life visually. It allows you to divide your day into structured categories with precision and clarity.\n\nThe app supports task prioritization, habit tracking, and calendar synchronization to streamline daily activities. Its circular time charts provide a unique, intuitive overview of your routines.\n\nIdeal for busy students or professionals, Time Planner improves balance between productivity and relaxation. Its detailed analytics help you evaluate time usage and optimize performance effortlessly.",
+    "size": 45,
+    "reviews": "710K",
+    "ratingAvg": 4.7,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 14 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 642 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/G4ywnxJN/demo-app-6.webp",
+   "title": "Morning Habits - Daily Routine",
+    "companyName": "MindFocus Lab",
+    "id": 6,
+    "description": "Morning Habits motivates you to start every day with energy and purpose. Build a powerful morning routine that enhances productivity and improves mental well-being.\n\nYou can customize your habit list, set reminders, and track consistency with streak statistics. Each completed task contributes to your personal progress level.\n\nFrom exercise to meditation or reading, Morning Habits helps you turn goals into daily achievements. It’s designed to make self-discipline fun and rewarding with positive affirmations and clean visuals.",
+    "size": 32,
+    "reviews": "380K",
+    "ratingAvg": 4.6,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 11 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 319 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JF0QsJG9/appTwo.webp",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "Shikudo Studio",
+    "id": 7,
+    "description": "Focus Plant gamifies focus by combining time management and virtual gardening. Every productive minute waters your plants and restores a beautiful green world.\n\nIt uses the Pomodoro technique to help you study or work efficiently while providing visual rewards for your effort.\n\nOver time, you’ll unlock new plants, backgrounds, and weather effects. Focus Plant encourages consistent concentration while making productivity visually relaxing and eco-friendly.",
+    "size": 70,
+    "reviews": "890K",
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 9 },
+      { "name": "3 star", "count": 18 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 791 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gLvX8MMW/demo-app-5.webp",
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Alarmy Inc.",
+    "id": 8,
+    "description": "Alarmy is the world’s most annoying alarm clock — on purpose. It forces you to complete missions like taking a photo or solving math problems before you can snooze.\n\nThis unique design ensures you wake up fully alert, preventing oversleeping and improving morning focus.\n\nWith soothing sleep sounds, bedtime reminders, and productivity tracking, Alarmy transforms your morning routine into a consistent and energizing habit.",
+    "size": 54,
+    "reviews": "1M",
+    "ratingAvg": 4.7,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 14 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 863 }
+    ]
+  },
+  {
+     "image": "https://i.ibb.co.com/FbSdtnHN/demo-app-4.webp",
+    "title": "Time Planner: Schedule & Tracks",
+    "companyName": "Oleksandr Albul",
+    "id": 9,
+    "description": "Time Planner: Schedule & Tracks is designed for people who value structure and productivity. It provides a smart way to visualize time allocation across different areas of life.\n\nWith clean graphs and customizable task lists, the app ensures you never lose track of priorities. You can plan your day, set recurring reminders, and analyze performance with detailed charts.\n\nWhether you’re balancing study, work, or hobbies, Time Planner: Schedule & Tracks brings clarity and control to your day, helping you achieve more with less stress.",
+    "size": 44,
+    "reviews": "420K",
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 13 },
+      { "name": "4 star", "count": 48 },
+      { "name": "5 star", "count": 346 }
+    ]
+  },
+  {
+   "image": "https://i.ibb.co.com/gLvX8MMW/demo-app-5.webp",
+     "title": "Morning Habits - Daily Routine",
+    "companyName": "MindFocus Lab",
+    "id": 10,
+    "description": "Morning Habits helps you design a personalized start to each day. It allows you to build routines filled with positivity and mindfulness through customizable habit lists.\n\nYou can track your streaks, get daily motivational quotes, and visualize your progress with colorful charts. The app rewards consistency and progress with small achievements.\n\nBy building healthy morning habits, users experience better focus, energy, and mood throughout the day. Morning Habits turns self-improvement into a game that inspires long-term success.",
+    "size": 30,
+    "reviews": "280K",
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 9 },
+      { "name": "4 star", "count": 32 },
+      { "name": "5 star", "count": 228 }
+    ]
+  },
+  {
+     "image": "https://i.ibb.co.com/G4ywnxJN/demo-app-6.webp",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "Shikudo Studio",
+    "id": 11,
+    "description": "Focus Plant transforms productivity into an adventure. Each time you focus, you collect water drops to revive the planet and grow unique plants.\n\nIt merges focus tracking, gamification, and environmental awareness into one soothing app. The background sounds and visual effects make studying or working more enjoyable.\n\nIts community feature encourages users to grow forests together, promoting consistency and motivation. Focus Plant makes managing time creative and eco-friendly.",
+    "size": 72,
+    "reviews": "920K",
+    "ratingAvg": 4.8,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 11 },
+      { "name": "2 star", "count": 9 },
+      { "name": "3 star", "count": 17 },
+      { "name": "4 star", "count": 62 },
+      { "name": "5 star", "count": 821 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbSdtnHN/demo-app-4.webp",
+   "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Alarmy Inc.",
+    "id": 12,
+    "description": "Alarmy makes waking up easier and more consistent. Its unique mission-based system ensures you’re fully awake before you can turn off the alarm.\n\nYou can choose from fun wake-up challenges like scanning barcodes, shaking your phone, or solving puzzles. The app also includes relaxing sleep sounds to improve bedtime quality.\n\nWith flexible alarm tones and smart tracking, Alarmy builds a healthier sleep cycle and morning routine. It’s the perfect combination of discipline and comfort.",
+    "size": 52,
+    "reviews": "980K",
+    "ratingAvg": 4.7,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 19 },
+      { "name": "2 star", "count": 13 },
+      { "name": "3 star", "count": 22 },
+      { "name": "4 star", "count": 85 },
+      { "name": "5 star", "count": 841 }
+    ]
+  },{
+    "image": "https://i.ibb.co.com/FL0cYr3m/demo-app-1.webp",
+     "title": "Forest: Focus For Productivity",
+    "companyName": "SeekrTech",
+    "id": 13,
+    "description": "Forest helps you stay focused by planting virtual trees that grow as you work. Each focused session cultivates your forest, motivating you to avoid distractions and stay productive.\n\nThe app uses a simple yet powerful idea: if you leave the app, your tree withers. This encourages mindfulness and discipline during your work sessions.\n\nForest also tracks your progress over time, rewarding consistent focus with badges and new tree species. It’s an excellent tool for students, professionals, or anyone who wants to build better concentration habits in a fun, visual way.",
+    "size": 64,
+    "reviews": "950K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 70 },
+      { "name": "5 star", "count": 835 }
+    
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JF0QsJG9/appTwo.webp",
+    "title": "SunPlant: ToDo List With Reminder",
+    "companyName": "BrightLeaf Labs",
+    "id": 14,
+    "description": "SunPlant helps you organize your daily schedule through a refreshing plant-themed interface. Each completed task nurtures your virtual plant, turning productivity into a peaceful habit.\n\nIt combines a smart task manager with gentle reminders that promote balance between work and relaxation. You can set recurring tasks, priority levels, and quick notes for each goal.\n\nWhether you’re planning your day or managing long-term projects, SunPlant’s friendly visuals and efficient reminders make every achievement satisfying. It’s more than a to-do app — it’s a lifestyle companion that keeps your goals growing beautifully.",
+    "size": 35,
+    "reviews": "430K",
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 12 },
+      { "name": "4 star", "count": 52 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wN92xb9v/demo-app-3.webp",
+    "title": "FLIP - Focus Timer For Study",
+    "companyName": "Rinasoft Inc.",
+    "id": 15,
+    "description": "FLIP helps students and professionals measure their study time effectively using a simple focus timer. You just flip your phone to start concentrating and flip it back to take a break.\n\nThe app tracks your study sessions, breaks, and productivity statistics, making it perfect for time-based planning like the Pomodoro method.\n\nFLIP also features group study rooms where users can focus together and encourage each other. Whether you're preparing for exams or managing work, FLIP motivates you to stay disciplined while turning studying into a rewarding experience.",
+    "size": 58,
+    "reviews": "620K",
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 9 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 526 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbSdtnHN/demo-app-4.webp",
+    "title": "Pomotori - Cute Pomodoro Timer",
+    "companyName": "HappyTools Studio",
+    "id": 16,
+    "description": "Pomotori is a charming productivity timer that uses the Pomodoro technique to help you manage time efficiently. Each focus session grows adorable characters that encourage you to keep going.\n\nIt offers custom session durations, soothing sounds, and minimal animations designed to reduce stress while improving focus.\n\nWhether you’re working, studying, or meditating, Pomotori’s simple design and cute interface transform your productivity routine into a delightful experience. Its daily stats and reminders keep you consistent and inspired.",
+    "size": 40,
+    "reviews": "210K",
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 156 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/G4ywnxJN/demo-app-6.webp",
+   "title": "Morning Habits - Daily Routine",
+    "companyName": "MindFocus Lab",
+    "id": 17,
+    "description": "Morning Habits motivates you to start every day with energy and purpose. Build a powerful morning routine that enhances productivity and improves mental well-being.\n\nYou can customize your habit list, set reminders, and track consistency with streak statistics. Each completed task contributes to your personal progress level.\n\nFrom exercise to meditation or reading, Morning Habits helps you turn goals into daily achievements. It’s designed to make self-discipline fun and rewarding with positive affirmations and clean visuals.",
+    "size": 32,
+    "reviews": "380K",
+    "ratingAvg": 4.6,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 11 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 319 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JF0QsJG9/appTwo.webp",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "Shikudo Studio",
+    "id": 18,
+    "description": "Focus Plant gamifies focus by combining time management and virtual gardening. Every productive minute waters your plants and restores a beautiful green world.\n\nIt uses the Pomodoro technique to help you study or work efficiently while providing visual rewards for your effort.\n\nOver time, you’ll unlock new plants, backgrounds, and weather effects. Focus Plant encourages consistent concentration while making productivity visually relaxing and eco-friendly.",
+    "size": 70,
+    "reviews": "890K",
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 9 },
+      { "name": "3 star", "count": 18 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 791 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gLvX8MMW/demo-app-5.webp",
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Alarmy Inc.",
+    "id": 19,
+    "description": "Alarmy is the world’s most annoying alarm clock — on purpose. It forces you to complete missions like taking a photo or solving math problems before you can snooze.\n\nThis unique design ensures you wake up fully alert, preventing oversleeping and improving morning focus.\n\nWith soothing sleep sounds, bedtime reminders, and productivity tracking, Alarmy transforms your morning routine into a consistent and energizing habit.",
+    "size": 54,
+    "reviews": "1M",
+    "ratingAvg": 4.7,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 14 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 863 }
+    ]
+  },
+  {
+     "image": "https://i.ibb.co.com/FbSdtnHN/demo-app-4.webp",
+    "title": "Time Planner: Schedule & Tracks",
+    "companyName": "Oleksandr Albul",
+    "id": 20,
+    "description": "Time Planner: Schedule & Tracks is designed for people who value structure and productivity. It provides a smart way to visualize time allocation across different areas of life.\n\nWith clean graphs and customizable task lists, the app ensures you never lose track of priorities. You can plan your day, set recurring reminders, and analyze performance with detailed charts.\n\nWhether you’re balancing study, work, or hobbies, Time Planner: Schedule & Tracks brings clarity and control to your day, helping you achieve more with less stress.",
+    "size": 44,
+    "reviews": "420K",
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 13 },
+      { "name": "4 star", "count": 48 },
+      { "name": "5 star", "count": 346 }
+    ]
+  }
+  
+]
