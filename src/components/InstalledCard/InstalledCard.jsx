@@ -1,8 +1,20 @@
 import React from "react";
 import download from "../../assets/download.png";
 import rating from "../../assets/ratings.png";
+import { toast } from "react-toastify";
 
-function InstalledCard({ cardId }) {
+function InstalledCard({ cardId,installed,setinstalled }) {
+
+  const handleDelete=(id)=>{
+    const update= installed.filter((app)=>app.id !== id)
+      toast("Uninstall Successfully");
+
+    setinstalled(update);
+    localStorage.setItem("installList",JSON.stringify(update))
+   
+  
+   
+  }
   
 
   return (
@@ -44,9 +56,10 @@ function InstalledCard({ cardId }) {
 
       </div>
      
-            <button className="btn bg-[#00D390] text-white"> 
+            <button onClick={()=> handleDelete(cardId.id)} className="btn bg-[#00D390] text-white"> 
                     Uninstall
              </button>
+             
     </div>
   );
 }

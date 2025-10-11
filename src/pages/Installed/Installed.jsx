@@ -70,7 +70,7 @@ function Installed() {
 
 
         {installed.map((a) => (
-          <InstalledCard key={a.id} cardId={a}></InstalledCard>
+          <InstalledCard key={a.id} cardId={a} installed={installed} setinstalled={setinstalled}></InstalledCard>
           
         ))}
       </div>

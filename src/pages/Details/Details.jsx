@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import clock from "../../assets/clock.png";
+import React, { useEffect, useState } from "react";
 import download from "../../assets/download.png";
 import rating from "../../assets/ratings.png";
 import reviewIcon from "../../assets/reviewIcon.png";
 import { useLoaderData, useParams } from "react-router";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
 import {
   BarChart,
   Bar,
@@ -13,14 +12,12 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { addToStorage } from "../../components/AddToCart/AddToCart";
+import { addToStorage, getApp } from "../../components/AddToCart/AddToCart";
 
 function Details() {
   const { id } = useParams();
   const data = useLoaderData();
-  const [installed,setinstalled] = useState(false)
-  
-
+  const [installed, setinstalled] = useState(false);
 
   const singleApp = data.find((ap) => ap.id === parseInt(id));
 
@@ -43,11 +40,20 @@ function Details() {
   const maxValue = Math.max(...chartData.map((item) => item.value));
   const roundData = Math.ceil((maxValue + 100) / 100) * 100;
 
-  const halndleInstall = (id) => {
+  const handleInstall = (id) => {
     addToStorage(id);
-    setinstalled(true)
+    setinstalled(true);
     toast("Install Successfully");
   };
+
+  useEffect(() => {
+    const oldData= getApp();
+
+    if(oldData.includes(id)){
+        
+        setinstalled(true)
+    }
+  }, [id]);
 
   return (
     <div className="details w-full py-10 md:px-15 px-7">
@@ -85,12 +91,12 @@ function Details() {
           </div>
 
           <button
-            onClick={() => halndleInstall(id)} disabled={installed === true}
-            className="text-white btn mt-3 bg-[#00D390]"
+            onClick={() => handleInstall(id)}
+            disabled={installed}
+            className="text-white btn mt-3 bg-[#00D390] disabled:text-gray-700 "
           >
-           {installed === false ? `Install Now (${size}) MB `:"Installed"} 
+            {installed ? `Installed ` : `Install Now ${size} MB`}
           </button>
-           <ToastContainer />
         </div>
       </div>
 

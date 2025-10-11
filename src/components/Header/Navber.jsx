@@ -44,7 +44,7 @@ const active = location.pathname;
       loading && (
         <div className="fixed inset-0 z-10  flex items-center justify-center font-bold text-4xl  ">
 
-        <span className="loading loading-spinner text-error"></span>
+        <span className="loading loading-spinner text-error loading-8xl w-10 h-10"></span>
         </div>
       )
     }
@@ -81,13 +81,13 @@ const active = location.pathname;
           </ul>
         </div>
 
-        <Link to={"/"}>
-          <div className="navLeft pl-2 flex btn btn-ghost">
+      
+          <div onClick={()=> handleNav("./")} className="navLeft pl-2 flex btn btn-ghost">
             <img className="w-10 h-10" src={logo} alt="" />
 
             <p className=" text-xl">HERO.IO</p>
           </div>
-        </Link>
+     
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

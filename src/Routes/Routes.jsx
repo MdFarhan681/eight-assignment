@@ -36,6 +36,7 @@ import NotFound from "../pages/NotFound/NotFound";
         },{
           path:"/Details/:id",
           Component:Details,
+          errorElement:<NotFound></NotFound>,
           loader:()=>fetch('AppData.json'),
         },{
           path:"/not-found",
