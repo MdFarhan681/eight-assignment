@@ -20,24 +20,24 @@ import NotFound from "../pages/NotFound/NotFound";
     children:[
         {
             index:true,
-            loader:()=>fetch('AppData.json'),
+            loader:()=>fetch('/AppData.json'),
             path:"/",
             Component:Home
         },{
           
           path:"/AllApps",
           Component:AllApps,
-          loader:()=>fetch('AppData.json')
+          loader:()=>fetch('/AppData.json')
         },
         {
           path:"/Installed",
           Component:Installed,
-          loader:()=>fetch('AppData.json')
+          loader:()=>fetch('/AppData.json')
         },{
           path:"/Details/:id",
           Component:Details,
           errorElement:<NotFound></NotFound>,
-          loader:()=>fetch('AppData.json'),
+          loader:()=>fetch('/AppData.json'),
         },{
           path:"/not-found",
           Component: NotFound
